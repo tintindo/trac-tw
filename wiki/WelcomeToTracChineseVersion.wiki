@@ -27,30 +27,11 @@ Wiki的使用就屬WikiFormatting和TracWiki的概念較為特殊，完整的介
     # 在某網頁含入另一個Wiki網頁的方法：` [[Include(wiki:WikiName)]] `，` [[Include(http://.../wiki.txt, x-trac-wiki)]] `
     # 目錄巨集：` [[TOC]] ` 在右上方顯示本網頁用到的超連結
     # 自動瀏覽巨集：` [[AutoNav]] ` 顯示連結到本頁的其他網頁
-    # CSV字串顯示成表格
-`
-`
-#!CSV
-123	123	123	123
-234	234	234	234
-第一格	第二格	第3格	four
-`
-`
-顯示在網頁上：
-`
-#!CSV
-123	123	123	123
-234	234	234	234
-第一格	第二格	第3格	four
-`
-
 
 === 學習的最有效方法就是開始使用。請盡情的編輯吧！ ===
-
 你也可以用[SandBox 練習沙箱區]來練習與測試。
 
 == Starting Points ==
-
  * TracGuide --  內建的使用說明
  * [http://trac.edgewall.org/ Trac專案] -- Trac開源專案
  * [http://trac.edgewall.org/wiki/TracFaq Trac FAQ] -- 常見問答
