@@ -15,6 +15,7 @@ if:len(chrome.links.alternate) ?>
     <?cs elif link.title == "Tab-delimited Text" ?>定位點分隔文字格式
     <?cs elif link.title == "RSS Feed" ?>RSS反饋
     <?cs elif link.title == "SQL Query" ?>SQL查詢
+    <?cs elif link.title == "Original Format" ?>原來的格式
     <?cs else ?><?cs var:link.title ?>
     <?cs /if ?>
     </a></li><?cs
