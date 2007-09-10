@@ -189,7 +189,7 @@
    if report.message ?>
     <div class="system-message"><?cs var report.message ?></div><?cs
    elif:idx == #0 ?>
-    <div id="report-notfound">No matches found.</div><?cs
+    <div id="report-notfound">無符合條件之任務單.</div><?cs
    /if ?>
 
  <?cs elif:report.mode == "delete" ?>
