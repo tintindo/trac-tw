@@ -71,12 +71,12 @@
   if:attachment.preview ?>
    <?cs var:attachment.preview ?><?cs
   elif:attachment.max_file_size_reached ?>
-   <strong>HTML preview not available</strong>, since the file size exceeds
-   <?cs var:attachment.max_file_size  ?> bytes. You may <a href="<?cs
-     var:attachment.raw_href ?>">download the file</a> instead.<?cs
+   <strong>HTML預覽無法使用</strong>, 因檔案大小超過
+   <?cs var:attachment.max_file_size  ?> 位元組. 請以 <a href="<?cs
+     var:attachment.raw_href ?>">下載檔案</a> 來處理.<?cs
   else ?>
-   <strong>HTML preview not available</strong>. To view the file,
-   <a href="<?cs var:attachment.raw_href ?>">download the file</a>.<?cs
+   <strong>HTML預覽無法使用</strong>. 請
+   <a href="<?cs var:attachment.raw_href ?>">下載檔案</a>後再行檢視.<?cs
   /if ?>
  </div>
  <?cs if:attachment.can_delete ?><div class="buttons">
